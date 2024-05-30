@@ -18,7 +18,7 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var contact in Model)
+       @*  @foreach (var contact in Model)
         {
             <tr>
                 <td>@contact.Name</td>
@@ -30,6 +30,6 @@
                     <a asp-controller="Contact" asp-action="Delete" asp-route-id="@contact.ContactId" asp-route-slug="@contact.Slug">Delete</a>
                 </td>
             </tr>
-        }
+        } *@
     </tbody>
 </table>
