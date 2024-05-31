@@ -15,6 +15,7 @@ builder.Services.AddRouting(options =>
     options.AppendTrailingSlash = true;
 });
 
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
